@@ -10,7 +10,7 @@ class ContadorPage extends StatefulWidget {
 
 class _ContadorPageState extends State<ContadorPage> {
 
-  final _estiloTexto = new TextStyle( fontSize: 25 );
+  final _estiloTexto = const TextStyle( fontSize: 25 );
 
   int _conteo = 0;
 
@@ -18,7 +18,7 @@ class _ContadorPageState extends State<ContadorPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Stateful'),
+        title: const Text('Contador'),
         centerTitle: true,
       ),
       body: Center(

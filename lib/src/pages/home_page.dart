@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 
 // ignore: use_key_in_widget_constructors
+// ignore: must_be_immutable
 class HomePage extends StatelessWidget{
 
   final estiloTexto =  const TextStyle( fontSize: 25 );
@@ -29,7 +30,7 @@ class HomePage extends StatelessWidget{
         onPressed: () {
 
           //print('Hola Mundo!');
-          conteo = conteo + 1;
+          //conteo = conteo + 1;
 
         },
       ),
